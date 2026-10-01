@@ -1,58 +1,332 @@
-body {
+*{
 
-    font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
 
-    background: #f2f2f2;
-
-    text-align: center;
-
-}
-
-
-.container {
-
-    margin-top: 80px;
+font-family:
+'Segoe UI',
+sans-serif;
 
 }
 
 
-h1 {
 
-    color: #2563eb;
+body{
 
-}
+background:#050816;
 
-
-h2 {
-
-    color: #333;
+color:white;
 
 }
 
 
-.card {
 
-    background:white;
+header{
 
-    width:350px;
-
-    margin:30px auto;
-
-    padding:20px;
-
-    border-radius:10px;
-
-    box-shadow:0 0 10px #aaa;
+padding:25px 8%;
 
 }
 
 
-.success {
 
-    color:green;
+nav{
 
-    font-weight:bold;
+display:flex;
 
-    font-size:20px;
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+
+
+.logo{
+
+font-size:28px;
+
+color:#38bdf8;
+
+}
+
+
+
+.menu a{
+
+color:white;
+
+text-decoration:none;
+
+margin-left:30px;
+
+}
+
+
+
+
+
+.hero{
+
+min-height:80vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-around;
+
+padding:50px 8%;
+
+}
+
+
+
+.tag{
+
+color:#38bdf8;
+
+font-weight:bold;
+
+}
+
+
+
+.hero h1{
+
+font-size:70px;
+
+line-height:1.1;
+
+margin:20px 0;
+
+}
+
+
+
+.hero h1 span{
+
+color:#22c55e;
+
+}
+
+
+
+.desc{
+
+width:500px;
+
+color:#cbd5e1;
+
+font-size:18px;
+
+}
+
+
+
+
+
+button{
+
+margin-top:30px;
+
+padding:15px 30px;
+
+border:none;
+
+border-radius:30px;
+
+background:#22c55e;
+
+color:white;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+
+
+
+
+.terminal{
+
+background:#111827;
+
+width:400px;
+
+border-radius:15px;
+
+overflow:hidden;
+
+box-shadow:0 0 30px #2563eb;
+
+}
+
+
+
+.terminal-header{
+
+background:#1f2937;
+
+padding:15px;
+
+color:#ef4444;
+
+}
+
+
+
+.code{
+
+padding:25px;
+
+line-height:2;
+
+font-family:monospace;
+
+}
+
+
+
+.green{
+
+color:#22c55e;
+
+}
+
+
+
+
+
+.pipeline{
+
+text-align:center;
+
+padding:70px 5%;
+
+}
+
+
+
+.pipeline h2,
+.about h2{
+
+font-size:40px;
+
+margin-bottom:40px;
+
+}
+
+
+
+.flow{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:20px;
+
+}
+
+
+
+.box{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:15px;
+
+width:170px;
+
+border:1px solid #334155;
+
+}
+
+
+
+.box h3{
+
+color:#38bdf8;
+
+}
+
+
+
+.arrow{
+
+font-size:40px;
+
+color:#22c55e;
+
+}
+
+
+
+
+
+.about{
+
+padding:70px 8%;
+
+text-align:center;
+
+}
+
+
+
+.cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+}
+
+
+
+.card{
+
+background:#111827;
+
+padding:30px;
+
+width:280px;
+
+border-radius:15px;
+
+}
+
+
+
+.success{
+
+color:#22c55e;
+
+font-size:25px;
+
+font-weight:bold;
+
+}
+
+
+
+
+
+footer{
+
+text-align:center;
+
+padding:30px;
+
+color:#94a3b8;
 
 }
