@@ -10,7 +10,7 @@ pipeline {
 
         BRANCH = "main"
 
-        URL = "https://your-vercel-url.vercel.app"
+        URL = "https://devops-test-tranlenguyen.vercel.app"
 
     }
 
